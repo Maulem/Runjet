@@ -1,0 +1,1176 @@
+fileFormatVersion: 2
+guid: 21ca02a1ef9c5084d8988aed94d024a7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3170597050383911794
+    second: Barry_jetpack_0
+  - first:
+      213: 7960973744610269670
+    second: Barry_jetpack_1
+  - first:
+      213: 2530668382602858843
+    second: Barry_jetpack_2
+  - first:
+      213: 4178931108511061290
+    second: Barry_jetpack_3
+  - first:
+      213: 6528809556166909972
+    second: Barry_jetpack_4
+  - first:
+      213: 4023763599972327575
+    second: Barry_jetpack_5
+  - first:
+      213: -4728430254786341091
+    second: Barry_jetpack_6
+  - first:
+      213: -9079698512917636851
+    second: Barry_jetpack_7
+  - first:
+      213: -3350793239029868843
+    second: Barry_jetpack_8
+  - first:
+      213: -3102510772905219594
+    second: Barry_jetpack_9
+  - first:
+      213: 3851296724481104858
+    second: Barry_jetpack_10
+  - first:
+      213: 7536637315770442266
+    second: Barry_jetpack_11
+  - first:
+      213: 4524212017994027972
+    second: Barry_jetpack_12
+  - first:
+      213: 5343444928588368325
+    second: Barry_jetpack_13
+  - first:
+      213: 5461516282137130605
+    second: Barry_jetpack_14
+  - first:
+      213: -7863296013044577703
+    second: Barry_jetpack_15
+  - first:
+      213: 609522697686104011
+    second: Barry_jetpack_16
+  - first:
+      213: -3976610705770229003
+    second: Barry_jetpack_18
+  - first:
+      213: 2312906445134431172
+    second: Barry_jetpack_19
+  - first:
+      213: -1503248079314764256
+    second: Barry_jetpack_20
+  - first:
+      213: -872966078695531686
+    second: Barry_jetpack_21
+  - first:
+      213: 2261941457660043229
+    second: Barry_jetpack_22
+  - first:
+      213: 8675448291679480110
+    second: Barry_jetpack_23
+  - first:
+      213: 4056229026925721324
+    second: Barry_jetpack_24
+  - first:
+      213: -5734936417847844368
+    second: Barry_jetpack_25
+  - first:
+      213: 9142620422991559355
+    second: Barry_jetpack_26
+  - first:
+      213: 1125113935837837976
+    second: Barry_jetpack_27
+  - first:
+      213: 4916356739062346839
+    second: Barry_jetpack_28
+  - first:
+      213: 811019062918714917
+    second: Barry_jetpack_29
+  - first:
+      213: -673029931124515289
+    second: Barry_jetpack_30
+  - first:
+      213: 1349608353082723064
+    second: Barry_jetpack_31
+  - first:
+      213: 7138963879957697602
+    second: Barry_jetpack_17
+  - first:
+      213: 5477708167226018789
+    second: Barry_jetpack_32
+  - first:
+      213: -7802323017262457025
+    second: Barry_jetpack_33
+  - first:
+      213: 4280880173217239853
+    second: Barry_jetpack_34
+  - first:
+      213: 2134183284679801395
+    second: Barry_jetpack_35
+  - first:
+      213: 6881090332958885374
+    second: Barry_jetpack_36
+  - first:
+      213: 7607154519891312944
+    second: Barry_jetpack_37
+  - first:
+      213: 9041860950555448951
+    second: Barry_jetpack_38
+  - first:
+      213: 3203551582729754182
+    second: Barry_jetpack_39
+  - first:
+      213: -4719486076623571218
+    second: Barry_jetpack_40
+  - first:
+      213: 8277486614281720262
+    second: Barry_jetpack_41
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Barry_jetpack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 359
+        width: 60
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8437fdf7c6cff3d0800000000000000
+      internalID: -3170597050383911794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barry_jetpack_1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 358
+        width: 44
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9d4b1117f0b7e60800000000000000
+      internalID: 7960973744610269670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barry_jetpack_2
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 359
+        width: 55
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b511b556c7dbe1320800000000000000
+      internalID: 2530668382602858843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barry_jetpack_3
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 359
+        width: 54
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2591a7c3bb8ef930800000000000000
+      internalID: 4178931108511061290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barry_jetpack_4
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 359
+        width: 55
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410218143bdfa9a50800000000000000
+      internalID: 6528809556166909972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barry_jetpack_5
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 363
+        width: 42
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7906f74eca747d730800000000000000
+      internalID: 4023763599972327575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barry_jetpack_6
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 304
+        width: 35
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17104e4cbd316eb0800000000000000
+      internalID: -4728430254786341091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barry_jetpack_7
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 318
+        width: 54
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09d6ed0f4e6ef180800000000000000
+      internalID: -9079698512917636851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barry_jetpack_8
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 318
+        width: 55
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d618d76d479f71d0800000000000000
+      internalID: -3350793239029868843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barry_jetpack_9
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 304
+        width: 35
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9692dc3eaa1f4d0800000000000000
+      internalID: -3102510772905219594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barry_jetpack_10
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 247
+        width: 40
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb525347fd827530800000000000000
+      internalID: 3851296724481104858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barry_jetpack_11
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 247
+        width: 40
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a12637735b3879860800000000000000
+      internalID: 7536637315770442266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barry_jetpack_12
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 247
+        width: 36
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3561d2cda39ce30800000000000000
+      internalID: 4524212017994027972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barry_jetpack_13
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 247
+        width: 36
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c94f5d0adab72a40800000000000000
+      internalID: 5343444928588368325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barry_jetpack_14
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 247
+        width: 38
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66bbcb4f143bcb40800000000000000
+      internalID: 5461516282137130605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barry_jetpack_15
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 169
+        width: 42
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a8bba00f5ffd290800000000000000
+      internalID: -7863296013044577703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barry_jetpack_16
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 161
+        width: 55
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc73e160aa5757800800000000000000
+      internalID: 609522697686104011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barry_jetpack_18
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 0
+        width: 45
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2dc80d1ad30d8c0800000000000000
+      internalID: -3976610705770229003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barry_jetpack_19
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 17
+        width: 45
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c303f45828191020800000000000000
+      internalID: 2312906445134431172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barry_jetpack_20
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 247
+        width: 41
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02eb72f16d3632be0800000000000000
+      internalID: -1503248079314764256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barry_jetpack_21
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 247
+        width: 40
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b13620af992e3f0800000000000000
+      internalID: -872966078695531686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barry_jetpack_22
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 304
+        width: 35
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf5e8e75c7046f10800000000000000
+      internalID: 2261941457660043229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barry_jetpack_23
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 304
+        width: 35
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2923dcb142656870800000000000000
+      internalID: 8675448291679480110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barry_jetpack_24
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 304
+        width: 35
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce639852fce9a4830800000000000000
+      internalID: 4056229026925721324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barry_jetpack_25
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 197
+        width: 36
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f16ab486b96960b0800000000000000
+      internalID: -5734936417847844368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barry_jetpack_26
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 197
+        width: 36
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbab4a4c5dc11ee70800000000000000
+      internalID: 9142620422991559355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barry_jetpack_27
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 197
+        width: 38
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ab47dd9253d9f00800000000000000
+      internalID: 1125113935837837976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barry_jetpack_28
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 176
+        width: 46
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754b8ecf7686a3440800000000000000
+      internalID: 4916356739062346839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barry_jetpack_29
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 192
+        width: 52
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 526175f6a81514b00800000000000000
+      internalID: 811019062918714917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barry_jetpack_30
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 49
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e1e10f7dae8a6f0800000000000000
+      internalID: -673029931124515289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barry_jetpack_31
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 0
+        width: 47
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa456785a5cab210800000000000000
+      internalID: 1349608353082723064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barry_jetpack_17
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 111
+        width: 80
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244193133d1b21360800000000000000
+      internalID: 7138963879957697602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barry_jetpack_32
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 111
+        width: 82
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb43c25e8ab40c40800000000000000
+      internalID: 5477708167226018789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barry_jetpack_33
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 111
+        width: 42
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f9735ed8498b390800000000000000
+      internalID: -7802323017262457025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barry_jetpack_34
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 86
+        width: 65
+        height: 25
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 29, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2350a226ddb86b30800000000000000
+      internalID: 4280880173217239853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barry_jetpack_35
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 83
+        width: 61
+        height: 28
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 25, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a7ae8d3642e9d10800000000000000
+      internalID: 2134183284679801395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barry_jetpack_36
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 83
+        width: 41
+        height: 28
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 5, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef58363433b8e7f50800000000000000
+      internalID: 6881090332958885374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barry_jetpack_37
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 83
+        width: 36
+        height: 28
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03101ad3bba029960800000000000000
+      internalID: 7607154519891312944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barry_jetpack_38
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 52
+        width: 82
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7765552f0a42b7d70800000000000000
+      internalID: 9041860950555448951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barry_jetpack_39
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 55
+        width: 60
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6465f3cf03d457c20800000000000000
+      internalID: 3203551582729754182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barry_jetpack_40
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 55
+        width: 53
+        height: 27
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 17, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee633701b64018eb0800000000000000
+      internalID: -4719486076623571218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barry_jetpack_41
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 55
+        width: 51
+        height: 28
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 15, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1105d383a8fd270800000000000000
+      internalID: 8277486614281720262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
