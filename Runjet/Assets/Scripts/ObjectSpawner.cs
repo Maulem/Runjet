@@ -19,21 +19,22 @@ public class ObjectSpawner : MonoBehaviour {
     private float timeOffMissile = 6;
     private float spawnTimeMissile = 0;
     private float RandomX, RandomY;
+    private static bool dead;
 
     void Start() {
-
+        dead = CharacterController2D.dead;
     }
 
     void Update() {
         transform.position = new Vector3(player.transform.position.x + 25, 0, 0);
+        dead = CharacterController2D.dead;
 
-
-        if (Time.time > spawnTimeCoin && player.transform.position.x > 20) {
+        if (Time.time > spawnTimeCoin && player.transform.position.x > 20 && !dead) {
             spawnCoin();
             spawnTimeCoin = Time.time + timeOffCoin;
         }
 
-        if (Time.time > spawnTimeMissile && player.transform.position.x > 50) {
+        if (Time.time > spawnTimeMissile && player.transform.position.x > 50 && !dead) {
             spawnMissile();
             spawnLaser();
             spawnTimeMissile = Time.time + timeOffMissile;
