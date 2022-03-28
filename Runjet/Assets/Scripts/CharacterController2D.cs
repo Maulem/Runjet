@@ -5,14 +5,16 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class CharacterController2D : MonoBehaviour {
     public int coins = 0;
-    public float speed = 60.0f;
+    private float speed = 60.0f;
     public GameObject Fire;
     private GameObject jetfire;
     private bool onGround = false;
     private bool flying = false;
-    private bool gameOn = true;
+    private bool gameOn = false;
+    private bool dead = false;
     private float jump = 0.0f;
     private float vAxis = 0;
+    private float hAxis = 0;
     private GameObject raycastTarget;
     private Rigidbody2D rb;
     private Vector3 movingDirection;
@@ -24,15 +26,15 @@ public class CharacterController2D : MonoBehaviour {
 
     private void FixedUpdate() {
         LayerMask mascara = LayerMask.GetMask("Collectable");
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, transform.up, 1.4f, mascara);
+        RaycastHit2D hitCollectables = Physics2D.Raycast(transform.position, transform.up, 1.4f, mascara);
+
         //Se houve colisão
-            if (hit.collider != null) {
-               print("Hit!");
-               raycastTarget = hit.collider.gameObject;
-            }
-            else { //Quando o raycast para de atingir o objeto limpo a referência.
-                raycastTarget = null;
-            }
+        if (hitCollectables.collider != null) {
+            raycastTarget = hitCollectables.collider.gameObject;
+        }
+        else {
+            raycastTarget = null;
+        }
     }
 
     private void OnDrawGizmos() {
@@ -40,6 +42,18 @@ public class CharacterController2D : MonoBehaviour {
     }
 
     private void OnTriggerEnter2D(Collider2D col) {
+        if (col.gameObject.tag == "Ground") {
+            onGround = true;
+        }
+
+        if (col.gameObject.tag == "Enemy") {
+            gameOn = false;
+            dead = true;
+        }
+
+    }
+
+    private void OnTriggerStay2D(Collider2D col) {
         if (col.gameObject.tag == "Ground") {
             onGround = true;
         }
@@ -65,9 +79,15 @@ public class CharacterController2D : MonoBehaviour {
     }
 
     private void HandleMovement() {
-        float hAxis = Input.GetAxis("Horizontal");
+        if (!dead) hAxis = Input.GetAxis("Horizontal");
         flying = false;
         vAxis = 0;
+
+        if (gameOn) {
+            if (hAxis <= 0) {
+                hAxis = 0.5f;
+            }
+        }
 
         // Set sprite animation depending the direction the player is looking
         if (hAxis > 0) {
@@ -80,7 +100,7 @@ public class CharacterController2D : MonoBehaviour {
         }
 
         // Flying mechanics
-        if (Input.GetKey(KeyCode.Space)) {
+        if (Input.GetKey(KeyCode.Space) && !dead) {
             if (jump < 0.0f) jump = 0.01f;
             else if (jump < 2.0f) jump += 0.01f;
             vAxis = jump;
@@ -94,6 +114,23 @@ public class CharacterController2D : MonoBehaviour {
             }
             vAxis = jump;
         }
+
+        // Stoping the body when someone dies
+        if (dead) {
+            if (hAxis < -0.1f) {
+                GetComponent<SpriteRenderer>().flipX = false;
+                hAxis += 0.001f;
+            }
+            else if (hAxis > 0.1f) {
+                GetComponent<SpriteRenderer>().flipX = false;
+                hAxis -= 0.001f;
+            }
+            else {
+                GetComponent<SpriteRenderer>().flipX = false;
+                hAxis = 0;
+            }
+        }
+
         // Refresh the player movement
         movingDirection = new Vector3(hAxis, vAxis);
         rb.MovePosition(transform.position + movingDirection * speed * Time.deltaTime);
@@ -102,7 +139,8 @@ public class CharacterController2D : MonoBehaviour {
     private void HandleInteractions() {
         if (raycastTarget) {
             // Fuel
-            if (Input.GetAxis("Interaction") != 0) {
+            if (Input.GetAxis("Interaction") != 0 || !gameOn) {
+                gameOn = true;
                 GameObject temp = raycastTarget;
                 raycastTarget = null;
                 Destroy(temp);
@@ -119,18 +157,22 @@ public class CharacterController2D : MonoBehaviour {
     }
 
     private void HandleAnimation() {
-        if (onGround && Input.GetAxis("Horizontal") != 0) {
+        if (dead) {
+            animator.SetBool("isMoving", false);
+            animator.SetBool("isDead", true);
+        }
+        else if (onGround && hAxis != 0) {
             animator.SetBool("isMoving", true);
         }
         else {
             animator.SetBool("isMoving", false);
         }
 
-        if (!onGround && flying) {
+        if (!onGround && flying && !dead) {
             animator.SetBool("isFlying", true);
             jetfire.GetComponent<Renderer>().enabled = true;
         }
-        else if (!onGround && !flying) {
+        else if (!onGround && !flying && !dead) {
             animator.SetBool("isFlying", false);
             animator.SetBool("isFalling", true);
             jetfire.GetComponent<Renderer>().enabled = false;
