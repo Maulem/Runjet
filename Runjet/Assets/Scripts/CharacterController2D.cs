@@ -4,14 +4,15 @@ using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class CharacterController2D : MonoBehaviour {
-    public int coins = 0;
+    public static int coinsUI = 0;
+    private int coins = -1;
     private float speed = 60.0f;
     public GameObject Fire;
     private GameObject jetfire;
     private bool onGround = false;
     private bool flying = false;
     private bool gameOn = false;
-    private bool dead = false;
+    public static bool dead = false;
     private float jump = 0.0f;
     private float vAxis = 0;
     private float hAxis = 0;
@@ -115,13 +116,13 @@ public class CharacterController2D : MonoBehaviour {
             vAxis = jump;
         }
 
-        // Stoping the body when someone dies
+        // Stopping the body when someone dies
         if (dead) {
-            if (hAxis < -0.1f) {
+            if (hAxis < -0.2f) {
                 GetComponent<SpriteRenderer>().flipX = false;
                 hAxis += 0.001f;
             }
-            else if (hAxis > 0.1f) {
+            else if (hAxis > 0.2f) {
                 GetComponent<SpriteRenderer>().flipX = false;
                 hAxis -= 0.001f;
             }
@@ -154,6 +155,7 @@ public class CharacterController2D : MonoBehaviour {
                 Destroy(temp);
             }
         }
+        if (coins >= 0) coinsUI = coins;
     }
 
     private void HandleAnimation() {
