@@ -10,7 +10,7 @@ public class Collectable : MonoBehaviour {
     private Rigidbody2D rb;
 
     private void OnTriggerEnter2D(Collider2D other) {
-        Debug.Log("OnTriggerEnter2D");
+        // Debug.Log("OnTriggerEnter2D");
     }
 
     void Start() {

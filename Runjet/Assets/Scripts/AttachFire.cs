@@ -16,5 +16,6 @@ public class AttachFire : MonoBehaviour {
 
     void Update() {
         fire.transform.position = (transform.position + fireCoords);
+        transform.position = transform.position - new Vector3(0.03f, 0, 0);
     }
 }
