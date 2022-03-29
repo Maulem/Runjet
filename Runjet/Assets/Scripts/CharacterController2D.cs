@@ -5,9 +5,12 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class CharacterController2D : MonoBehaviour {
     public static int coinsUI = 0;
-    public static int coins = -1;
-    public AudioSource coinSource;
-    private float speed = 60.0f;
+    public static int coins = 0;
+    public AudioClip coinClip;
+    public AudioClip zapClip;
+    public AudioClip boomClip;
+    private AudioSource AudioSource;
+    private float speed = 30.0f;
     public GameObject Fire;
     private GameObject jetfire;
     private bool onGround = false;
@@ -53,6 +56,13 @@ public class CharacterController2D : MonoBehaviour {
         }
 
         if (col.gameObject.tag == "Enemy") {
+            AudioSource.PlayClipAtPoint(zapClip, transform.position + new Vector3(8, 0, -3), 0.5f);
+            dead = true;
+            deathTime = Time.time + timeOff;
+        }
+
+        if (col.gameObject.tag == "Enemy2") {
+            AudioSource.PlayClipAtPoint(boomClip, transform.position + new Vector3(8, 0, -3), 0.5f);
             dead = true;
             deathTime = Time.time + timeOff;
         }
@@ -168,9 +178,9 @@ public class CharacterController2D : MonoBehaviour {
             }
 
             // Coins
-            if (gameOn) {
+            else if (gameOn) {
                 coins += 1;
-                coinSource.Play();
+                AudioSource.PlayClipAtPoint(coinClip, transform.position + new Vector3(8, 0, -3), 0.5f);
                 GameObject temp = raycastTarget;
                 raycastTarget = null;
                 Destroy(temp);
