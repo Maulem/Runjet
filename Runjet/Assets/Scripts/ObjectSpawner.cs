@@ -20,12 +20,15 @@ public class ObjectSpawner : MonoBehaviour {
     private float spawnTimeMissile = 0;
     private float RandomX, RandomY;
     private static bool dead;
+    GameManager gm;
 
     void Start() {
         dead = CharacterController2D.dead;
+        gm = GameManager.GetInstance();
     }
 
     void Update() {
+        if (gm.gameState != GameManager.GameState.GAME) return;
         transform.position = new Vector3(player.transform.position.x + 25, 0, 0);
         dead = CharacterController2D.dead;
 

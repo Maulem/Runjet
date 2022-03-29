@@ -5,23 +5,28 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class CharacterController2D : MonoBehaviour {
     public static int coinsUI = 0;
-    private int coins = -1;
+    public static int coins = -1;
+    public AudioSource coinSource;
     private float speed = 60.0f;
     public GameObject Fire;
     private GameObject jetfire;
     private bool onGround = false;
     private bool flying = false;
     private bool gameOn = false;
+    public static int restart = 0;
     public static bool dead = false;
     private float jump = 0.0f;
     private float vAxis = 0;
     private float hAxis = 0;
+    private float timeOff = 2;
+    private float deathTime = 0;
     private GameObject raycastTarget;
     private Rigidbody2D rb;
     private Vector3 movingDirection;
     private Vector3 jetfireLeftCoords = new Vector3(-0.56f, -0.4f);
     private Vector3 jetfireRightCoords = new Vector3(0.14f, -0.4f);
     private Animator animator;
+    GameManager gm;
 
 
 
@@ -48,8 +53,8 @@ public class CharacterController2D : MonoBehaviour {
         }
 
         if (col.gameObject.tag == "Enemy") {
-            gameOn = false;
             dead = true;
+            deathTime = Time.time + timeOff;
         }
 
     }
@@ -69,17 +74,24 @@ public class CharacterController2D : MonoBehaviour {
     void Start() {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        gm = GameManager.GetInstance();
         raycastTarget = null;
         setFire();
     }
 
     void Update() {
+        if (gm.gameState != GameManager.GameState.GAME) return;
         HandleMovement();
         HandleAnimation();
         HandleInteractions();
     }
 
     private void HandleMovement() {
+
+        if(Input.GetKeyDown(KeyCode.Escape) && gm.gameState == GameManager.GameState.GAME) {
+            gm.ChangeState(GameManager.GameState.PAUSE);
+        }
+
         if (!dead) hAxis = Input.GetAxis("Horizontal");
         flying = false;
         vAxis = 0;
@@ -132,6 +144,14 @@ public class CharacterController2D : MonoBehaviour {
             }
         }
 
+        if (Time.time > deathTime && dead) {
+            hAxis = 0;
+            vAxis = 0;
+            movingDirection = new Vector3(hAxis, vAxis);
+            rb.MovePosition(transform.position + movingDirection * speed * Time.deltaTime);
+            gm.ChangeState(GameManager.GameState.ENDGAME);
+        }
+
         // Refresh the player movement
         movingDirection = new Vector3(hAxis, vAxis);
         rb.MovePosition(transform.position + movingDirection * speed * Time.deltaTime);
@@ -150,6 +170,7 @@ public class CharacterController2D : MonoBehaviour {
             // Coins
             if (gameOn) {
                 coins += 1;
+                coinSource.Play();
                 GameObject temp = raycastTarget;
                 raycastTarget = null;
                 Destroy(temp);
@@ -183,6 +204,17 @@ public class CharacterController2D : MonoBehaviour {
             animator.SetBool("isFlying", false);
             animator.SetBool("isFalling", false);
             jetfire.GetComponent<Renderer>().enabled = false;
+        }
+
+        switch (restart) {
+            case 2:
+                animator.SetBool("isDead", false);
+                animator.SetBool("isRestart", true);
+                restart--;
+                break;
+            case 1:
+                animator.SetBool("isRestart", false);
+                break;
         }
     }
 
